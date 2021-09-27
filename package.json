@@ -1,0 +1,35 @@
+{
+  "name": "calao_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "engines": {
+    "node": "14.x.x"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "deploy": "gcloud app deploy"
+  },
+  "author": "",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.896.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^5.12.7",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.7",
+    "onesignal-node": "^3.3.0",
+    "pug": "^3.0.2",
+    "sharp": "^0.28.1",
+    "socket.io": "^2.4.1"
+  }
+}
